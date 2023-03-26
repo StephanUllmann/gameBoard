@@ -33,6 +33,9 @@ body {
   align-items: center;
   font-family: "Righteous", cursive;
 }
+*::selection {
+  display: none;
+}
 
 .board__wrapper {
   aspect-ratio: 1 / 1;
