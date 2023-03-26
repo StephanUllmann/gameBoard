@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GameBoard</title>
+  </head>
+  <body>
+    <main class="board__wrapper">
+      <div class="board">
+        <div class="board__empty">&nbsp;</div>
+        <div class="board__letter">A</div>
+        <div class="board__letter">B</div>
+        <div class="board__letter">C</div>
+        <div class="board__letter">D</div>
+        <div class="board__letter">E</div>
+        <div class="board__letter">F</div>
+        <div class="board__letter">G</div>
+        <div class="board__letter">H</div>
+        <div class="board__empty">&nbsp;</div>
+        <div class="board__number">8</div>
+        <div class="board__field even border--top border--left brtl" id="a8">
+          &nbsp;
+        </div>
+        <div class="board__field even border--top" id="b8">&nbsp;</div>
+        <div class="board__field even border--top" id="c8">&nbsp;</div>
+        <div class="board__field even border--top" id="d8">&nbsp;</div>
+        <div class="board__field even border--top" id="e8">&nbsp;</div>
+        <div class="board__field even border--top" id="f8">&nbsp;</div>
+        <div class="board__field even border--top" id="g8">&nbsp;</div>
+        <div class="board__field even border--top border--right brtr" id="h8">
+          &nbsp;
+        </div>
+        <div class="board__number">8</div>
+        <div class="board__number">7</div>
+        <div class="board__field border--left" id="a7">&nbsp;</div>
+        <div class="board__field" id="b7">&nbsp;</div>
+        <div class="board__field" id="c7">&nbsp;</div>
+        <div class="board__field" id="d7">&nbsp;</div>
+        <div class="board__field" id="e7">&nbsp;</div>
+        <div class="board__field" id="f7">&nbsp;</div>
+        <div class="board__field" id="g7">&nbsp;</div>
+        <div class="board__field border--right" id="h7">&nbsp;</div>
+        <div class="board__number">7</div>
+        <div class="board__number">6</div>
+        <div class="board__field even border--left" id="a6">&nbsp;</div>
+        <div class="board__field even" id="b6">&nbsp;</div>
+        <div class="board__field even" id="c6">&nbsp;</div>
+        <div class="board__field even" id="d6">&nbsp;</div>
+        <div class="board__field even" id="e6">&nbsp;</div>
+        <div class="board__field even" id="f6">&nbsp;</div>
+        <div class="board__field even" id="g6">&nbsp;</div>
+        <div class="board__field even border--right" id="h6">&nbsp;</div>
+        <div class="board__number">6</div>
+        <div class="board__number">5</div>
+        <div class="board__field border--left" id="a5">&nbsp;</div>
+        <div class="board__field" id="b5">&nbsp;</div>
+        <div class="board__field" id="c5">&nbsp;</div>
+        <div class="board__field" id="d5">&nbsp;</div>
+        <div class="board__field" id="e5">&nbsp;</div>
+        <div class="board__field" id="f5">&nbsp;</div>
+        <div class="board__field" id="g5">&nbsp;</div>
+        <div class="board__field border--right" id="h5">&nbsp;</div>
+        <div class="board__number">5</div>
+        <div class="board__number">4</div>
+        <div class="board__field even border--left" id="a4">&nbsp;</div>
+        <div class="board__field even" id="b4">&nbsp;</div>
+        <div class="board__field even" id="c4">&nbsp;</div>
+        <div class="board__field even" id="d4">&nbsp;</div>
+        <div class="board__field even" id="e4">&nbsp;</div>
+        <div class="board__field even" id="f4">&nbsp;</div>
+        <div class="board__field even" id="g4">&nbsp;</div>
+        <div class="board__field even border--right" id="h4">&nbsp;</div>
+        <div class="board__number">4</div>
+        <div class="board__number">3</div>
+        <div class="board__field border--left" id="a3">&nbsp;</div>
+        <div class="board__field" id="b3">&nbsp;</div>
+        <div class="board__field" id="c3">&nbsp;</div>
+        <div class="board__field" id="d3">&nbsp;</div>
+        <div class="board__field" id="e3">&nbsp;</div>
+        <div class="board__field" id="f3">&nbsp;</div>
+        <div class="board__field" id="g3">&nbsp;</div>
+        <div class="board__field border--right" id="h3">&nbsp;</div>
+        <div class="board__number">3</div>
+        <div class="board__number">2</div>
+        <div class="board__field even border--left" id="a2">&nbsp;</div>
+        <div class="board__field even" id="b2">&nbsp;</div>
+        <div class="board__field even" id="c2">&nbsp;</div>
+        <div class="board__field even" id="d2">&nbsp;</div>
+        <div class="board__field even" id="e2">&nbsp;</div>
+        <div class="board__field even" id="f2">&nbsp;</div>
+        <div class="board__field even" id="g2">&nbsp;</div>
+        <div class="board__field even border--right" id="h2">&nbsp;</div>
+        <div class="board__number">2</div>
+        <div class="board__number">1</div>
+        <div class="board__field border--bottom border--left brbl" id="a1">
+          &nbsp;
+        </div>
+        <div class="board__field border--bottom" id="b1">&nbsp;</div>
+        <div class="board__field border--bottom" id="c1">&nbsp;</div>
+        <div class="board__field border--bottom" id="d1">&nbsp;</div>
+        <div class="board__field border--bottom" id="e1">&nbsp;</div>
+        <div class="board__field border--bottom" id="f1">&nbsp;</div>
+        <div class="board__field border--bottom" id="g1">&nbsp;</div>
+        <div class="board__field border--bottom border--right brbr" id="h1">
+          &nbsp;
+        </div>
+        <div class="board__number">1</div>
+        <div class="board__empty">&nbsp;</div>
+        <div class="board__letter">A</div>
+        <div class="board__letter">B</div>
+        <div class="board__letter">C</div>
+        <div class="board__letter">D</div>
+        <div class="board__letter">E</div>
+        <div class="board__letter">F</div>
+        <div class="board__letter">G</div>
+        <div class="board__letter">H</div>
+        <div class="board__empty">&nbsp;</div>
+      </div>
+    </main>
+  </body>
+</html>
